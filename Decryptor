@@ -1,0 +1,8 @@
+import rsa
+
+private_key = rsa.PrivateKey.load_pkcs1(open("private_key.txt", "rb").read())
+
+encrypted = open("encrypted_file.txt", "rb").read()
+decrypted = rsa.decrypt(encrypted, private_key)
+
+print("Decrypted", decrypted.decode())
