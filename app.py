@@ -1,1 +1,2 @@
- bnvgngfhjgf
+print('hello world')
+
