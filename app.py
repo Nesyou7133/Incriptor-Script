@@ -1,7 +1,2 @@
-f = open ("msg.txt", "r+")
+print('hell world')
 
-print(f.read())
-
-
-f.write("This is a new message added to the file.")
-f.close()
